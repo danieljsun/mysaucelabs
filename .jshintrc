@@ -1,0 +1,24 @@
+{
+  "curly":          true,
+  "eqeqeq":         true,
+  "es5":            true,
+  "immed":          true,
+  "indent":         2,
+  "latedef":        true,
+  "newcap":         true,
+  "noarg":          true,
+  "node":           true,
+  "nonew":          true,
+  "strict":         true,
+  "trailing":       true,
+  "undef":          true,
+  "unused":         true,
+  "predef": [
+    "describe",     // Used by mocha
+    "it",           // Used by mocha
+    "before",       // Used by mocha
+    "beforeEach",   // Used by mocha
+    "after",        // Used by mocha
+    "afterEach"     // Used by mocha
+  ]
+}

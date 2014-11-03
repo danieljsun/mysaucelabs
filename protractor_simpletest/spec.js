@@ -1,3 +1,6 @@
+/* global browser, expect */
+'use strict';
+
 // In order to run a end to end (e2e) test using protractor you need the following:
 // 1. AngularJS application
 // 2. A test also known as "spec"
@@ -15,7 +18,7 @@
 
 describe('angularjs homepage', function() {
   it('should have a title', function() {
-    browser.get('http://juliemr.github.io/protractor-demo/');
-	expect(browser.getTitle()).toEqual('Super Calculator');
+    browser.get('http://juliemr.github.io/protractor-demo/', 50000);
+    expect(browser.getTitle()).toEqual('Super Calculator');
   });
 });
